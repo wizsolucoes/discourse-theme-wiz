@@ -103,17 +103,31 @@ input[type="color"]:focus,
     top: 0; 
     left: 0; 
     width: 332px;
-    height: 680px;
+    height: 350px;
     background: url(https://res.cloudinary.com/outlinestudio/image/upload/v1658266462/wiz-n_mdxp4e.png) no-repeat;
+    @media only screen and ( max-width: 930px) {
+      left: -20vw;
+    }
+    @media only screen and ( max-width: 720px) {
+      opacity: 0.3;
+    }
   }
   &::after { 
-    content: ""; 
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-    width: 192px;
-    height: 320px;
+    content: "";
+    position: absolute;
+    top: 111px;
+    right: 5vw;
+    width: 158px;
+    height: 271px;
+    background-size: contain;
     background: url(https://res.cloudinary.com/outlinestudio/image/upload/v1658266470/wizzer_mxyypp.png) no-repeat;
+    @media only screen and ( max-width: 970px) {
+      right: -20px;
+      top: calc(100% - 120px);
+      height: 159px;
+      width: 80px;
+      
+    }
   }
 }
 
