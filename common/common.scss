@@ -45,6 +45,7 @@ input[type="color"]:focus,
 .d-header {
   height: 5em;
   box-shadow: none;
+  background-color: #404040;
 }
 
 .alert.alert-info {
@@ -92,6 +93,28 @@ input[type="color"]:focus,
   margin-bottom: 1em;
   max-width: 100vw;
   background-position: top right;
+}
+
+.search-banner { 
+  position: relative;
+  &::before { 
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 332px;
+    height: 680px;
+    background: url(https://res.cloudinary.com/outlinestudio/image/upload/v1658266462/wiz-n_mdxp4e.png) no-repeat;
+  }
+  &::after { 
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 192px;
+    height: 320px;
+    background: url(https://res.cloudinary.com/outlinestudio/image/upload/v1658266470/wizzer_mxyypp.png) no-repeat;
+  }
 }
 
 .category-box-inner {
