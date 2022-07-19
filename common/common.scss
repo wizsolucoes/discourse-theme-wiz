@@ -373,3 +373,16 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
     border: 1px dashed var(--tertiary);
   }
 }
+
+#main { 
+  background-color: #fbfbfb;
+}
+.latest-topic-list, 
+.table.category-list { 
+  background-color: #fbfbfb;
+  border-radius: 5px;
+}
+
+.category-list th {
+  padding: 12px 10px;
+ }
