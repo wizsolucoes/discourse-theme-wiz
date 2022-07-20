@@ -4,7 +4,7 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
   @include border-radius;
   box-shadow: 0 8px 60px 0 rgba(103,151,255,.10), 0 12px 90px 0 rgba(133,255,103,.10);
   padding: 2em;
-  background-color: $color-white;
+  background-color: var(--primary-low);
   border-top: 8px solid $tertiary;
   margin-top: .8em;
 }
