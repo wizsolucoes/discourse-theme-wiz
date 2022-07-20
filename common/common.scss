@@ -162,6 +162,9 @@ input[type="color"]:focus,
   color: $color-white;
 }
 
+.search-menu .search-input { 
+  border: 0px solid transparent;
+}
 .search-menu .search-input input{
   background-color: white;
   color: #404040;
