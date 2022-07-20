@@ -8,20 +8,3 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
   border-top: 8px solid $tertiary;
   margin-top: .8em;
 }
-
-
-#main-outlet:before {
-  content: "";
-  display: block;
-  position: absolute;
-  z-index: -1;
-  width: 300px;
-  height: 300px;
-  border-radius: 30px;
-  background: $color-square-webkit-gradient;
-  background: $color-square-gradient;
-  left: -9vw;
-  top: 90vh;
-  transform: rotate(74deg);
-  transform-origin: 0 100%;
-}
