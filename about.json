@@ -3,12 +3,29 @@
   "about_url": null,
   "license_url": null,
   "color_schemes": {
-    "mint": {
-      "primary": "454545",
-      "secondary": "F6FBFC",
-      "tertiary": "4F8A7C",
-      "header_background": "ffffff",
-      "header_primary": "111111"
+    "Wiz - Tema": {
+      "primary": "404040",
+      "secondary": "fbfbfb",
+      "tertiary": "fe9000",
+      "quaternary": "4f8a7c",
+      "header_background": "404040",
+      "header_primary": "ffffff",
+      "highlight": "fe9000",
+      "danger": "e45735",
+      "success": "009900",
+      "love": "fa6c8d"
+    },
+    "Dark": {
+      "primary": "f4f4f4",
+      "secondary": "404040",
+      "tertiary": "fe9000",
+      "quaternary": "c14924",
+      "header_background": "404040",
+      "header_primary": "ffffff",
+      "highlight": "fe9000",
+      "danger": "e45735",
+      "success": "009900",
+      "love": "fa6c8d"
     }
   },
   "components": ["https://github.com/discourse/discourse-showcased-categories.git","https://github.com/discourse/discourse-search-banner.git"]
