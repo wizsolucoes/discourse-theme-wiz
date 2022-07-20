@@ -28,5 +28,5 @@
       "love": "fa6c8d"
     }
   },
-  "components": ["https://github.com/discourse/discourse-showcased-categories.git","https://github.com/discourse/discourse-search-banner.git"]
+  "components": ["https://github.com/discourse/discourse-showcased-categories.git","https://github.com/discourse/discourse-search-banner.git", "https://github.com/discourse/discourse-color-scheme-toggle"]
 }
