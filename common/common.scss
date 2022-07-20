@@ -45,7 +45,7 @@ input[type="color"]:focus,
 .d-header {
   height: 5em;
   box-shadow: none;
-  background-color: #404040;
+  background-color: var(--header_background,#404040);
 }
 
 .alert.alert-info {
@@ -418,7 +418,7 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
 }
 
 #main { 
-  background-color: #fbfbfb;
+  background-color: var(--primary);
 }
 .latest-topic-list, 
 table.category-list { 
