@@ -7,14 +7,4 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
   background-color: var(--primary-very-low);
   border-top: 8px solid $tertiary;
   margin-top: .8em;
-  @media (prefers-color-scheme: light) {
-    background-color: white;
-  }  
 }
-
-
-@media (prefers-color-scheme: light) {
-  :root { 
-    --primary-very-low: white;
-  }
-}  

@@ -5,6 +5,7 @@
   "color_schemes": {
     "Wiz - Tema": {
       "primary": "404040",
+      "primary-very-low": "ffffff",
       "secondary": "fbfbfb",
       "tertiary": "fe9000",
       "quaternary": "4f8a7c",
