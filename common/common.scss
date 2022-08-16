@@ -97,6 +97,7 @@ input[type="color"]:focus,
 }
 
 
+
 .search-banner  {
   position: relative;
   .custom-search-banner {   
@@ -147,7 +148,7 @@ input[type="color"]:focus,
     @include border-radius;
     box-shadow: 0 8px 60px 0 rgba(103,151,255,.10), 0 12px 90px 0 rgba(133,255,103,.10);
     padding: 2em;
-    background-color: $color-white;
+    background-color: var(--primary-very-low);
     border-top: 8px solid $tertiary;
     margin-top: .8em;
   }
