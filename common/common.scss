@@ -124,7 +124,8 @@ input[type="color"]:focus,
       right: 5vw;
       width: 158px;
       height: 271px;
-      background: url(https://forum.wizsolucoes.com.br/uploads/default/original/1X/035a034692b290d96870eee4e460a3d6c680334a.png) no-repeat;
+      background: url($asset-elementZ) no-repeat;
+      background: url($elementZ) no-repeat;
       background-size: contain;
       pointer-events: none;
       @media only screen and ( max-width: 970px) {

@@ -29,5 +29,14 @@
       "love": "fa6c8d"
     }
   },
-  "components": ["https://github.com/discourse/discourse-showcased-categories.git","https://github.com/discourse/discourse-search-banner.git", "https://github.com/discourse/discourse-color-scheme-toggle"]
+  "assets": {
+    "wizzer": "assets/wizzer.png",
+    "elementZ":  "assets/element-z.png"
+  },
+  "components": [
+    "https://github.com/discourse/discourse-showcased-categories.git",
+    "https://github.com/discourse/discourse-search-banner.git",
+    "https://github.com/discourse/discourse-color-scheme-toggle",
+    "https://github.com/jordanvidrine/discourse-category-group-boxes.git"
+  ]
 }
